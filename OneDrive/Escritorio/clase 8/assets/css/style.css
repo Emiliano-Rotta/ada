@@ -1,0 +1,73 @@
+/* []Corchete
+()parentesis
+{}llaves */
+
+/* Version celular (XS) */
+@media(max-width: 576px){  
+    div{
+        background-color: red;
+        width: 400px;
+        height: 400px;
+        border-radius: 10%;
+        border: solid black 3px;
+    }
+    body{
+        background-color: aquamarine;
+    }
+}
+
+/* Version celular (S) */
+@media(min-width: 576px){
+    div{
+        background-color: aqua;
+        width: 400px;
+        height: 400px;
+        border-radius: 10%;
+        border: solid black 3px;
+    }
+    body{
+        background-color: red;
+    }
+}
+
+/* Version tablet (m) */
+@media(min-width: 768px){
+    div{
+        background-color: red;
+        width: 400px;
+        height: 400px;
+        border-radius: 10%;
+        border: solid black 3px;
+    }
+    body{
+        background-color: aquamarine;
+    }
+}
+
+/* Version computadora (l) */
+@media(min-width: 992px){
+    div{
+        background-color: aqua;
+        width: 400px;
+        height: 400px;
+        border-radius: 10%;
+        border: solid black 3px;
+    }
+    body{
+        background-color: red;
+    }
+}
+
+/* Version tablet (xl) */
+@media(min-width: 1200px){
+    div{
+        background-color: red;
+        width: 400px;
+        height: 400px;
+        border-radius: 10%;
+        border: solid black 3px;
+    }
+    body{
+        background-color: aquamarine;
+    }
+}
